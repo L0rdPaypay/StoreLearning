@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{8EEB48
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "domain\Store\Store.csproj", "{3CCBFF6C-D27D-4B78-A639-65F7319F4DC6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1A7EFF6E-3581-4094-8868-71AC78EB1046}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure3", "infrastructure3", "{A5052B92-36AD-43CD-BFFB-2BF5B6DD97D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Memory", "Infrastructure\Store.Memory\Store.Memory.csproj", "{03FACE92-EEA2-48A3-8D4D-B1E8C332D54B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Memory", "infrastructure3\Store.Memory\Store.Memory.csproj", "{1AD07324-0053-4152-A232-2D19A3EEB672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,16 +21,16 @@ Global
 		{3CCBFF6C-D27D-4B78-A639-65F7319F4DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CCBFF6C-D27D-4B78-A639-65F7319F4DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CCBFF6C-D27D-4B78-A639-65F7319F4DC6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03FACE92-EEA2-48A3-8D4D-B1E8C332D54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03FACE92-EEA2-48A3-8D4D-B1E8C332D54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03FACE92-EEA2-48A3-8D4D-B1E8C332D54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03FACE92-EEA2-48A3-8D4D-B1E8C332D54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD07324-0053-4152-A232-2D19A3EEB672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD07324-0053-4152-A232-2D19A3EEB672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD07324-0053-4152-A232-2D19A3EEB672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD07324-0053-4152-A232-2D19A3EEB672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3CCBFF6C-D27D-4B78-A639-65F7319F4DC6} = {8EEB483A-F8A1-4959-8A62-D8DA882C8384}
-		{03FACE92-EEA2-48A3-8D4D-B1E8C332D54B} = {1A7EFF6E-3581-4094-8868-71AC78EB1046}
+		{1AD07324-0053-4152-A232-2D19A3EEB672} = {A5052B92-36AD-43CD-BFFB-2BF5B6DD97D4}
 	EndGlobalSection
 EndGlobal
