@@ -8,6 +8,9 @@ namespace Store
 {
     public interface IBookRepository
     {
-        Book[] GetAllByTitle(string titlePart);
+        Book[] GetAllByTitle(string titlePart)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
