@@ -7,14 +7,21 @@ namespace Store.Memory
     {
         private readonly Book[] books = new[]
         {
-            new Book(1, "Aboba-San"),
-            new Book(2, "Naruto"),
-            new Book(3, "Konoha"),
+            new Book(1, "ISBN 11111-11111", "Ya. Napisal", "Aboba-San"),
+            new Book(2, "ISBN 22222-22222", "Kto-to tam napisal", "Naruto"),
+            new Book(3, "ISBN 33333-33333", "eto voobshe derevnya", "Konoha"),
         };
 
-        Book[] IBookRepository.GetAllByTitle(string titlePart)
+        public Book[] GetAllByIsbn(string isbn)
         {
-            return books.Where(book => book.Title.Contains(titlePart))
+            return books.Where(book =>  book.Isbn == isbn)
+                        .ToArray();
+        }
+
+        Book[] IBookRepository.GetAllByTitleOrAuthor(string query)
+        {
+            return books.Where(book => book.Author.Contains(query)
+                                    || book.Title.Contains(query))
                         .ToArray();
         }
     }
